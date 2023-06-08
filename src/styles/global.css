@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--color-primary: #0e0e0e;
+		--color-secondary: #fff;
+	}
+	
+	body {
+		background-color: var(--color-primary);
+		color: var(--color-secondary);
+	}
+	
+	.gridContainer {
+		transform: scaleY(0);
+		transition: transform .6s cubic-bezier(.455,.03,.515,.955);
+	}
+	
+	.grid-visible.gridContainer {
+		transform: scaleY(1);
+	}
+}
+
