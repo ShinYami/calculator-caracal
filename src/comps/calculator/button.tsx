@@ -9,12 +9,12 @@ export default function Button({ children, variant, handleClickEvent, theme }) {
 		),
 		secondary: clsx(
 			theme === 'dark' && 'bg-lynch border-b-eastbay border-b-4 text-white text-20 sm:text-28 hover:bg-coldpurple',
-			theme === 'light' && 'bg-paradiso border-b-napa border-b-4 text-riverbed text-20 sm:text-28  hover:bg-blackwhite',
+			theme === 'light' && 'bg-paradiso border-b-napa border-b-4 text-white text-20 sm:text-28  hover:bg-blackwhite',
 			theme === 'purple' && 'bg-windsor border-b-napa border-b-4 text-white text-20 sm:text-28  hover:bg-blackwhite',
 		),
 		ternary: clsx(
 			theme === 'dark' && 'bg-persianred border-b-oldbrick border-b-4 text-20 sm:text-28  hover:bg-carnation',
-			theme === 'light' && 'bg-burntorange border-b-napa border-b-4 text-riverbed text-20 sm:text-28  hover:bg-blackwhite',
+			theme === 'light' && 'bg-burntorange border-b-napa border-b-4 text-white text-20 sm:text-28  hover:bg-blackwhite',
 			theme === 'purple' && 'bg-robinseggblue border-b-napa border-b-4 text-white text-20 sm:text-28  hover:bg-blackwhite',
 		),
 	}
