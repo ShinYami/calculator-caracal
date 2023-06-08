@@ -26,6 +26,7 @@ const colors = {
 	westar: '#E5E4E1',
 	seance: '#881C9E',
 	brightsun: '#FFE53D',
+	windsor: '#56077C',
 	pearlbush: '#EAE3DC',
 	hightviolet:'#17062A',
 	mercury: '#E6E6E6',
