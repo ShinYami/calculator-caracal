@@ -1,6 +1,6 @@
 import { clsx } from 'clsx';
 
-export default function Calculator({ children, variant, handleClickEvent }) {
+export default function Button({ children, variant, handleClickEvent, theme }) {
 	return (
 		<button
 			className={clsx(

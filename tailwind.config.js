@@ -23,10 +23,17 @@ const colors = {
 	eastbay: '#414E73',
 	oldbrick: '#93261A',
 	riverbed: '#434A59',
+	westar: '#E5E4E1',
+	seance: '#881C9E',
+	brightsun: '#FFE53D',
 	pearlbush: '#EAE3DC',
+	hightviolet:'#17062A',
 	mercury: '#E6E6E6',
+	gallery: '#EEEEEE',
+	grape: '#331C4D',
 	violet: '#1E0936',
 	napa: '#B3A497',
+	neoncarrot: '#FF8A38',
 	paradiso: '#378187',
 	burntorange: '#C85402',
 	swisscoffee: '#D2CDCD',
@@ -38,6 +45,7 @@ const colors = {
 	blackwhite: '#FFFFFE',
 	coldpurple: '#A2B2E1',
 	carnation: '#F96B5B',
+	robinseggblue: '#00DED0',
 };
 
 const max = px => {
